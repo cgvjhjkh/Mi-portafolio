@@ -51,16 +51,5 @@ export const projects = [
 ];
 
 export const initialRecommendations = [
-  {
-    id: 1,
-    text: 'Es un aprendiz muy rápido: entiende con facilidad los conceptos clave del desarrollo web, tiene buena actitud y es un excelente compañero de equipo. Tiene iniciativa y potencial para liderar.',
-  },
-  {
-    id: 2,
-    text: 'Trabajar con él ha sido una gran experiencia. Sabe mucho y siempre da el paso extra para que todo salga bien. Sin duda querría volver a trabajar con él.',
-  },
-  {
-    id: 3,
-    text: 'Colaboré con él en la fase inicial de nuestro proyecto. Es un recurso comprometido y con conocimiento profundo del dominio. Será un activo para cualquier organización.',
-  },
+  
 ];
