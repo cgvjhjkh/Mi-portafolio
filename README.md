@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portafolio con React.js y Bootstrap
 
 ## Ejecutar
@@ -22,3 +23,6 @@ src/
     ├── LeaveRecommendationForm.jsx
     └── Footer.jsx
 ```
+=======
+# Mi-portafolio
+>>>>>>> eff787becc5ecb177c7eeaab7d20711e07d507bc
