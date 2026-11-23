@@ -1,0 +1,92 @@
+/* ===== Estilos personalizados (lo que Bootstrap no cubre) ===== */
+:root {
+  --portfolio-purple: #6a00b8;
+  --bs-primary: var(--portfolio-purple);
+  --bs-primary-rgb: 106, 0, 184;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Segoe UI', Arial, sans-serif;
+  color: #222;
+}
+
+/* Navbar morado con enlaces blancos */
+.navbar-portfolio {
+  background-color: var(--portfolio-purple);
+}
+.navbar-portfolio .nav-link {
+  color: #fff;
+  font-size: 0.9rem;
+}
+.navbar-portfolio .nav-link:hover,
+.navbar-portfolio .nav-link:focus {
+  text-decoration: underline;
+  color: #fff;
+}
+.navbar-portfolio .contact-line {
+  font-size: 0.7rem;
+  font-style: italic;
+}
+
+/* Títulos de sección */
+.section-title {
+  color: var(--portfolio-purple);
+  font-weight: 700;
+}
+
+/* Tarjetas de habilidad */
+.skill-card {
+  width: 100%;
+  max-width: 190px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.skill-card img {
+  width: 28px;
+  height: 28px;
+}
+
+/* Proyectos: separador entre ítems */
+.project-item + .project-item {
+  border-top: 1px solid #ddd;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+/* Tarjetas de recomendación */
+.recommendation-card {
+  font-size: 0.8rem;
+  font-style: italic;
+  border-color: #ccc;
+  border-radius: 8px;
+}
+
+/* Botón enviar morado con borde */
+.btn-submit {
+  color: var(--portfolio-purple);
+  border: 1px solid var(--portfolio-purple);
+  background: #fff;
+  min-width: 140px;
+}
+.btn-submit:hover {
+  background: var(--portfolio-purple);
+  color: #fff;
+}
+
+/* Botón "volver arriba" fijo abajo a la derecha */
+.scroll-top-btn {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--portfolio-purple);
+  border-color: var(--portfolio-purple);
+  z-index: 1030;
+}
+
+html {
+  scroll-behavior: smooth;
+}
